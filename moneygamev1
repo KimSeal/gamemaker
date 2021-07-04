@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdio.h>
+#include <time.h>
+int main(){
+  srand(time(NULL));
+  int random = 0;
+  int money=100;
+  int input=0;
+  printf("input money! end is input 0!\n");
+  printf("you have 100 gold\n input:");
+  scanf("%d",&input);
+  while(input!=0){
+    random = rand()%2;
+    if(random==0){
+      money+=input;
+      printf("you win, guy!\n");
+    }
+    else if(random==1){
+      money-=input;
+      printf("you win, guy!\n");
+    }
+    printf("you have %d gold\n input:",money);
+    scanf("%d",&input);
+  }
+  return 0;
+ }
