@@ -1,26 +1,38 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 int main(){
   srand(time(NULL));
+  int luck=50;
   int random = 0;
   int money=100;
   int input=0;
   printf("input money! end is input 0!\n");
-  printf("you have 100 gold\n input:");
+  printf("you have 100 gold\ninput:");
   scanf("%d",&input);
-  while(input!=0){
-    random = rand()%2;
-    if(random==0){
+  while(money<input){
+    printf("Are you kidding me?\ninput:");
+    scanf("%d",&input);
+  }
+  while(input!=0||money!=0){
+    random = rand()%100;
+    if(random>=luck){
       money+=input;
       printf("you win, guy!\n");
     }
-    else if(random==1){
+    else if(random<luck){
       money-=input;
-      printf("you win, guy!\n");
+      printf("you lose, guy!\n");
     }
-    printf("you have %d gold\n input:",money);
+    printf("you have %d gold\n",money);
+    if(money==0){break;}
+    printf("input:");
     scanf("%d",&input);
+    while(money<input){
+     printf("Are you kidding me?\ninput:");
+     scanf("%d",&input);
+    }
   }
+  printf("good game, guy. see you again!");
   return 0;
  }
