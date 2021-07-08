@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<.c>
+int main(){
+  int C_money=100;
+  int Work=1;
+  printf("you have 100gold.\nbut whenever you write anything, you can get 1gold\n");
+  printf("if you enter 0, I will show your current money.\nif you enter 1, you can go casino!");
+  while(1){
+    scanf("%d",&Work);
+    if(work==0){
+      printf("your current money is %d",C_money);
+    }
+    else if(Work==1){
+      printf("Let go casino");
+      C_money=money_game(C_moeny);
+    }
+    else{
+      C_money+=1;
+    }
+  }
+  return 0;
+}
