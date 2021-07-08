@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int money_game(int a){
+int Money_Game(int a){
   srand(time(NULL));
   int Luck=50;
   int Random = 0;
