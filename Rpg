@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<.c>
+#include<Money_Game.c>
 int main(){
   int C_money=100;
   int Work=1;
