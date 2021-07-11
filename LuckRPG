@@ -1,0 +1,27 @@
+ 
+#include<iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+class Man{
+  private :
+  int attack
+}
+int main(){
+  srand(time(NULL));
+  int Input=0;
+  int Chance=0;
+  int Fullcheck=0;
+  int level=0;
+  int random=0;
+  int levellim[3]={10,30,50};
+  printf("full the boxes!\n");
+  while(1){
+  	printf("Attack"); 
+  	scanf("%d",&Input);
+    random = rand()%6;
+    
+   return 0;
+ }
