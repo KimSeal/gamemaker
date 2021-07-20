@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T14:19:05.530Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="N5n5d6dUzQRPGOd7S5nC" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T14:23:49.048Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="MLfE2mc-ZxoVjSIBw1vb" version="14.9.0" type="github">
   <diagram id="SqYD3vh8MbYlXdlC_32G" name="Page-1">
     <mxGraphModel dx="1540" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -722,11 +722,34 @@
         <mxCell id="OqzS29tU1OrCrxpP4sbA-212" value="열어주면 사망" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="80" y="1900" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="1" source="OqzS29tU1OrCrxpP4sbA-214" target="OqzS29tU1OrCrxpP4sbA-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1930" />
+              <mxPoint x="230" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OqzS29tU1OrCrxpP4sbA-214" value="안열어주면 생존" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="1900" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OqzS29tU1OrCrxpP4sbA-216" value="chapter7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="1720" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="1" source="OqzS29tU1OrCrxpP4sbA-217" target="OqzS29tU1OrCrxpP4sbA-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="OqzS29tU1OrCrxpP4sbA-217" target="OqzS29tU1OrCrxpP4sbA-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-217" value="문너머가 사람이면 &lt;br&gt;어떻게 하냐며 혼란" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-219" value="살기 위햇다는 합리화" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2000" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="OqzS29tU1OrCrxpP4sbA-221" value="괴물의 거짓말" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2000" width="120" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
