@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T16:31:59.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="8Sis3HYSFJn5RSD_xEQM" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T13:00:16.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="mUdev-VHK-nuumkUoYP-" version="18.1.3" type="github">
   <diagram id="t_6TBzPHU2TRJwSv7pgD" name="Page-1">
     <mxGraphModel dx="3137" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="CQIo6EbV2_NXLOoVZTtR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vu2SXQQRVCWnUn75O9n0-7" target="Ky5NVHh-QfmgxSO9MNWo-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vu2SXQQRVCWnUn75O9n0-7" target="Ky5NVHh-QfmgxSO9MNWo-1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vu2SXQQRVCWnUn75O9n0-7" target="Ky5NVHh-QfmgxSO9MNWo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vu2SXQQRVCWnUn75O9n0-7" value="have file and &lt;br&gt;directory about &lt;br&gt;same hashed &lt;br&gt;data" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -386,7 +386,7 @@
         <mxCell id="CQIo6EbV2_NXLOoVZTtR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-6" target="CQIo6EbV2_NXLOoVZTtR-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQIo6EbV2_NXLOoVZTtR-6" value="&lt;span&gt;make socket and connect web-server&lt;br&gt;and send message (from brower) to web server&lt;br&gt;&amp;amp;&amp;amp;alarm start&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CQIo6EbV2_NXLOoVZTtR-6" value="&lt;span&gt;join thread&lt;br&gt;make socket and connect web-server&lt;br&gt;and send message (from brower) to web server&lt;br&gt;&amp;amp;&amp;amp;alarm start&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="165" y="497.5" width="120" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="CQIo6EbV2_NXLOoVZTtR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-7" target="hi08b6Fvkj_9URR9vYfA-2" edge="1">
@@ -405,8 +405,8 @@
         <mxCell id="WwQHylQN8OvRQ_REzNWH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-11" target="WwQHylQN8OvRQ_REzNWH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQIo6EbV2_NXLOoVZTtR-11" value="put cache data&lt;br&gt;that took from server&lt;br&gt;to Web browser&lt;br&gt;&amp;nbsp;write log file&lt;br&gt;and do fflush" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="387.5" width="120" height="70" as="geometry" />
+        <mxCell id="CQIo6EbV2_NXLOoVZTtR-11" value="join thread and&lt;br&gt;put cache data&lt;br&gt;that took from server&lt;br&gt;to Web browser&lt;br&gt;&amp;nbsp;write log file&lt;br&gt;and do fflush" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="387.5" width="120" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="WwQHylQN8OvRQ_REzNWH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-17" target="WwQHylQN8OvRQ_REzNWH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -420,7 +420,7 @@
         <mxCell id="CQIo6EbV2_NXLOoVZTtR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-21" target="CQIo6EbV2_NXLOoVZTtR-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQIo6EbV2_NXLOoVZTtR-21" target="CQIo6EbV2_NXLOoVZTtR-7">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CQIo6EbV2_NXLOoVZTtR-21" target="CQIo6EbV2_NXLOoVZTtR-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CQIo6EbV2_NXLOoVZTtR-21" value="can&#39;t read during&lt;br&gt;alarm call" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -452,25 +452,25 @@
         <mxCell id="WwQHylQN8OvRQ_REzNWH-7" value="write logfile&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;program exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ky5NVHh-QfmgxSO9MNWo-1" target="CQIo6EbV2_NXLOoVZTtR-11">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ky5NVHh-QfmgxSO9MNWo-1" target="CQIo6EbV2_NXLOoVZTtR-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-1" value="check semaphore&lt;br&gt;and&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-1" value="check semaphore&lt;br&gt;and&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="380" width="120" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-5" value="check semaphore&lt;br&gt;and&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-5" value="check semaphore&lt;br&gt;and make thread,&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="380" width="120" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ky5NVHh-QfmgxSO9MNWo-6" target="CQIo6EbV2_NXLOoVZTtR-6">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ky5NVHh-QfmgxSO9MNWo-6" target="CQIo6EbV2_NXLOoVZTtR-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-6" value="check semaphore&lt;br&gt;and&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-6" value="check semaphore&lt;br&gt;and make thread&lt;br&gt;use logfile or wait end of process that using semaphore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="510" width="120" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="637.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ky5NVHh-QfmgxSO9MNWo-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="630" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
